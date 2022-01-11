@@ -1,0 +1,10 @@
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.AssemblyReference.cache
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\fouca\source\repos\esgi_bdd\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb

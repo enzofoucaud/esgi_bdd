@@ -1,0 +1,76 @@
+﻿2022-01-11T11:56:48.9376179+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-01-11T11:56:48.9378048+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework netcore31 in x64 mode execution started
+2022-01-11T11:56:48.9378094+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-01-11T11:56:48.9392823+01:00;VSTestExecutionThread;Info;Current UserName: 'fouca', MachineName: 'LAPTOP-ENZO'
+2022-01-11T11:56:48.9704521+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T11:56:48.9706855+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults" (default)
+2022-01-11T11:56:48.9707734+01:00;VSTestExecutionThread;Info;Profile: 
+2022-01-11T11:56:49.0517285+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults\Unnamed project__2022-01-11T115648.log
+2022-01-11T11:56:49.0593960+01:00;Thread#12;Info;Checking activation
+2022-01-11T11:56:49.1862703+01:00;Thread#12;Info;Activated.
+2022-01-11T11:56:49.1865912+01:00;Thread#12;Info;Activation check completed
+2022-01-11T11:56:49.1868838+01:00;Thread#12;Info;Starting test run
+2022-01-11T11:56:49.2941213+01:00;Thread#12;Info;Discovering target: Default
+2022-01-11T11:56:49.2943881+01:00;Thread#12;Info;Discovering tests from assembly: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T11:56:49.3925731+01:00;Thread#12;Info;Discovered tests from assembly: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T11:56:49.3939522+01:00:Test Suite Dump
+2022-01-11T11:56:49.3960372+01:00:#0: Unnamed project/ - 
+2022-01-11T11:56:49.3960984+01:00:#1: Default - 
+2022-01-11T11:56:49.3961029+01:00:#2: SpecFlowCalculator.Specs - 
+2022-01-11T11:56:49.3961060+01:00:#3: Calculator - 
+2022-01-11T11:56:49.3979111+01:00:#4: Add two numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Add+two+numbers
+2022-01-11T11:56:49.3979872+01:00:#5: Multiple two numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Multiple+two+numbers
+2022-01-11T11:56:49.3980207+01:00:#6: Divide two random numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+two+random+numbers
+2022-01-11T11:56:49.3980329+01:00:#7: Divide with 0 in dividend - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+with+0+in+dividend
+2022-01-11T11:56:49.3980434+01:00:#8: Divide with 0 in divisor - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+with+0+in+divisor
+2022-01-11T11:56:49.3980921+01:00:End: Test Suite Dump
+2022-01-11T11:56:49.4145969+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T11:56:49.4168076+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2022-01-11T11:56:49.4169005+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-01-11T11:56:49.4200638+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T11:56:49.4200893+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-01-11T11:56:49.4200915+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-01-11T11:56:49.4200952+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-01-11T11:56:49.4206288+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-01-11T11:56:49.4215389+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T11:56:49.4239421+01:00:Thread #0: creating new test thread executor for SpecFlowCalculator.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2022-01-11T11:56:49.4261129+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-11T11:56:49.4262823+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-11T11:56:49.4295862+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2022-01-11T11:56:49.4316516+01:00:starting Out Of Process Executor
+2022-01-11T11:56:49.4333577+01:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T11:56:49.4357406+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2022-01-11T11:56:49.4357722+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2022-01-11T11:56:49.4368323+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T11:56:49.4372041+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2022-01-11T11:56:49.4373061+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2022-01-11T11:56:49.4373396+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T11:56:49.4375120+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T11:56:49.4379802+01:00:Tfm: netcoreapp3.1
+2022-01-11T11:56:49.4379939+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T11:56:49.4380007+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2022-01-11T11:56:49.4380730+01:00:[AssemblyCache] Found file 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2022-01-11T11:56:49.4383943+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2022-01-11T11:56:49.4389189+01:00:Starting callback TCP Rpc server
+2022-01-11T11:56:49.4564228+01:00:Asynchronously starting background TCP Rpc Server on port 32768
+2022-01-11T11:56:49.4564759+01:00:Started callback TCP Rpc server on port 32768
+2022-01-11T11:56:49.4564786+01:00:Starting logger TCP Rpc server
+2022-01-11T11:56:49.4585807+01:00:Asynchronously starting background TCP Rpc Server on port 32769
+2022-01-11T11:56:49.4586294+01:00:Started logger TCP Rpc server on port 32769
+2022-01-11T11:56:49.5324618+01:00:Executing test executor at 'dotnet' 'exec "C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 20688 --uniqueId "2022-01-11T115648" --outputFolder "C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T11:56:49.5388990+01:00:Executor with PID 12812 has been started successfully.
+2022-01-11T11:56:49.5420840+01:00:Out of Process Executor 12812 started
+2022-01-11T11:56:49.5421120+01:00:Waiting for endpoint
+2022-01-11T11:56:49.7957828+01:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T11:56:49.7958249+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2022-01-11T11:56:49.7958309+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2022-01-11T11:56:49.7958362+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T11:56:49.7958392+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2022-01-11T11:56:49.7958793+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2022-01-11T11:56:49.7959170+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T11:56:49.7959225+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T11:56:49.7959519+01:00:Tfm: netcoreapp3.1
+2022-01-11T11:56:49.7959576+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T11:56:49.7959601+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2022-01-11T11:56:49.7960406+01:00:[AssemblyCache] Found file 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2022-01-11T11:56:49.7966083+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
