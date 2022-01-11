@@ -1,0 +1,325 @@
+﻿2022-01-11T12:41:52.8882210+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-01-11T12:41:52.8884229+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework netcore31 in x64 mode execution started
+2022-01-11T12:41:52.8884279+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-01-11T12:41:52.8900047+01:00;VSTestExecutionThread;Info;Current UserName: 'fouca', MachineName: 'LAPTOP-ENZO'
+2022-01-11T12:41:52.9179509+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:41:52.9181530+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults" (default)
+2022-01-11T12:41:52.9182251+01:00;VSTestExecutionThread;Info;Profile: 
+2022-01-11T12:41:52.9790027+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults\Unnamed project__2022-01-11T124152.log
+2022-01-11T12:41:52.9841352+01:00;Thread#12;Info;Checking activation
+2022-01-11T12:41:53.0935377+01:00;Thread#12;Info;Activated.
+2022-01-11T12:41:53.0938063+01:00;Thread#12;Info;Activation check completed
+2022-01-11T12:41:53.0939180+01:00;Thread#12;Info;Starting test run
+2022-01-11T12:41:53.1954038+01:00;Thread#12;Info;Discovering target: Default
+2022-01-11T12:41:53.1956589+01:00;Thread#12;Info;Discovering tests from assembly: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:41:53.2981577+01:00;Thread#12;Info;Discovered tests from assembly: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:41:53.2997110+01:00:Test Suite Dump
+2022-01-11T12:41:53.3022212+01:00:#0: Unnamed project/ - 
+2022-01-11T12:41:53.3022810+01:00:#1: Default - 
+2022-01-11T12:41:53.3022866+01:00:#2: SpecFlowCalculator.Specs - 
+2022-01-11T12:41:53.3022908+01:00:#3: Calculator - 
+2022-01-11T12:41:53.3039634+01:00:#4: Add numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Add+numbers
+2022-01-11T12:41:53.3040589+01:00:#5: Multiple numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Multiple+numbers
+2022-01-11T12:41:53.3040854+01:00:#6: Divide random numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+random+numbers
+2022-01-11T12:41:53.3041213+01:00:#7: Divide with 0 in dividend - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+with+0+in+dividend
+2022-01-11T12:41:53.3041395+01:00:#8: Divide with 0 in divisor - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+with+0+in+divisor
+2022-01-11T12:41:53.3042109+01:00:End: Test Suite Dump
+2022-01-11T12:41:53.3237588+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:53.3256739+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2022-01-11T12:41:53.3257400+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-01-11T12:41:53.3291744+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:41:53.3291991+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:41:53.3292020+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:41:53.3292061+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-01-11T12:41:53.3298970+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-01-11T12:41:53.3309640+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:41:53.3338167+01:00:Thread #0: creating new test thread executor for SpecFlowCalculator.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2022-01-11T12:41:53.3378906+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-11T12:41:53.3382173+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-11T12:41:53.3425494+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2022-01-11T12:41:53.3443170+01:00:starting Out Of Process Executor
+2022-01-11T12:41:53.3462808+01:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:41:53.3494233+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2022-01-11T12:41:53.3494936+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2022-01-11T12:41:53.3508076+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:53.3512368+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2022-01-11T12:41:53.3513609+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2022-01-11T12:41:53.3513949+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:53.3516345+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T12:41:53.3524093+01:00:Tfm: netcoreapp3.1
+2022-01-11T12:41:53.3524436+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:41:53.3524572+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2022-01-11T12:41:53.3526175+01:00:[AssemblyCache] Found file 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2022-01-11T12:41:53.3532264+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2022-01-11T12:41:53.3542728+01:00:Starting callback TCP Rpc server
+2022-01-11T12:41:53.3739863+01:00:Asynchronously starting background TCP Rpc Server on port 32768
+2022-01-11T12:41:53.3740594+01:00:Started callback TCP Rpc server on port 32768
+2022-01-11T12:41:53.3740683+01:00:Starting logger TCP Rpc server
+2022-01-11T12:41:53.3768527+01:00:Asynchronously starting background TCP Rpc Server on port 32769
+2022-01-11T12:41:53.3769141+01:00:Started logger TCP Rpc server on port 32769
+2022-01-11T12:41:53.4771167+01:00:Executing test executor at 'dotnet' 'exec "C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 23012 --uniqueId "2022-01-11T124152" --outputFolder "C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:53.4883109+01:00:Executor with PID 19596 has been started successfully.
+2022-01-11T12:41:53.4926161+01:00:Out of Process Executor 19596 started
+2022-01-11T12:41:53.4926510+01:00:Waiting for endpoint
+2022-01-11T12:41:53.8791843+01:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:41:53.8792248+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2022-01-11T12:41:53.8792300+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2022-01-11T12:41:53.8792389+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:53.8792448+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2022-01-11T12:41:53.8793184+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2022-01-11T12:41:53.8793622+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:53.8793694+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T12:41:53.8794441+01:00:Tfm: netcoreapp3.1
+2022-01-11T12:41:53.8794547+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:41:53.8794706+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2022-01-11T12:41:53.8795758+01:00:[AssemblyCache] Found file 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2022-01-11T12:41:53.8801262+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2022-01-11T12:41:54.2682379+01:00:Remote executor port received: 32770
+2022-01-11T12:41:54.2689241+01:00:Creating executor TCP client on port 32770
+2022-01-11T12:41:54.2696496+01:00:Created executor TCP client on port 32770
+2022-01-11T12:41:54.2696643+01:00:Connecting to remote executor TCP server
+2022-01-11T12:41:54.2724261+01:00:Connected remote executor TCP server
+2022-01-11T12:41:54.2726811+01:00:trying to connect to Out of Process Executor the 1 attempt
+2022-01-11T12:41:54.2726972+01:00:Connection to Out of Process Executor established in the 1 attempt
+2022-01-11T12:41:54.5023864+01:00:2022-01-11T12:41:54.5008694+01:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll on test thread #0
+2022-01-11T12:41:54.5083363+01:00:Endpoint 19596 started
+2022-01-11T12:41:54.5359926+01:00:2022-01-11T12:41:54.5354231+01:00:OutOfProcessTestAssemblyExecutor: running tests...
+2022-01-11T12:41:54.7040826+01:00:2022-01-11T12:41:54.7035396+01:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-11T12:41:54.7081826+01:00:2022-01-11T12:41:54.7077299+01:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2022-01-11T12:41:54.7113751+01:00:2022-01-11T12:41:54.7109795+01:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\fouca\.nuget\packages\specflow\3.9.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2022-01-11T12:41:54.8388163+01:00:2022-01-11T12:41:54.8382665+01:00:Thread#0:T:-> Loading plugin C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:41:54.8403770+01:00:2022-01-11T12:41:54.8399443+01:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-11T12:41:54.8410838+01:00:2022-01-11T12:41:54.8407147+01:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2022-01-11T12:41:54.8421586+01:00:2022-01-11T12:41:54.8416090+01:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\fouca\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2022-01-11T12:41:54.8884141+01:00:2022-01-11T12:41:54.8878945+01:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-11T12:41:54.8892076+01:00:2022-01-11T12:41:54.8888035+01:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2022-01-11T12:41:54.8900023+01:00:2022-01-11T12:41:54.8896855+01:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\fouca\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2022-01-11T12:41:54.8983294+01:00:2022-01-11T12:41:54.8977981+01:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in SpecFlowCalculator.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2022-01-11T12:41:54.8991710+01:00:2022-01-11T12:41:54.8987691+01:00:Thread#0:T:-> Loading plugin C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2022-01-11T12:41:54.9021966+01:00:2022-01-11T12:41:54.9017074+01:00:Assembly resolving LivingDoc.Dtos, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+2022-01-11T12:41:54.9029704+01:00:2022-01-11T12:41:54.9025689+01:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2022-01-11T12:41:54.9040913+01:00:2022-01-11T12:41:54.9036113+01:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\fouca\.nuget\packages\specflow.plus.livingdocplugin\3.9.57\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2022-01-11T12:41:54.9071819+01:00:2022-01-11T12:41:54.9066616+01:00:Thread#0:T:-> Loading plugin C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2022-01-11T12:41:54.9160663+01:00:2022-01-11T12:41:54.9155235+01:00:Thread#0:T:-> Using default config
+2022-01-11T12:41:54.9270964+01:00:2022-01-11T12:41:54.9257698+01:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2022-01-11T12:41:54.9291704+01:00:2022-01-11T12:41:54.9280881+01:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2022-01-11T12:41:54.9311484+01:00:2022-01-11T12:41:54.9301665+01:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\fouca\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2022-01-11T12:41:54.9338428+01:00:2022-01-11T12:41:54.9328157+01:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2022-01-11T12:41:54.9356825+01:00:2022-01-11T12:41:54.9347228+01:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2022-01-11T12:41:54.9379564+01:00:2022-01-11T12:41:54.9369523+01:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\fouca\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2022-01-11T12:41:54.9455183+01:00:2022-01-11T12:41:54.9445497+01:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:41:54.9468179+01:00:2022-01-11T12:41:54.9461418+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2022-01-11T12:41:54.9482730+01:00:2022-01-11T12:41:54.9475640+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\fouca\.nuget\packages\microsoft.testplatform.objectmodel\17.0.0\lib\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2022-01-11T12:41:54.9794993+01:00:2022-01-11T12:41:54.9784329+01:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-11T12:41:54.9804473+01:00:2022-01-11T12:41:54.9800992+01:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2022-01-11T12:41:54.9812662+01:00:2022-01-11T12:41:54.9809369+01:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\fouca\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2022-01-11T12:41:55.0598008+01:00:Thread#0: Test #4/0 is started on thread #0
+2022-01-11T12:41:55.0848025+01:00:2022-01-11T12:41:55.0759537+01:00:Thread#0:B:Given the numbers are 50,50,100
+2022-01-11T12:41:55.1020280+01:00:2022-01-11T12:41:55.1014825+01:00:Assembly resolving Calculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2022-01-11T12:41:55.1035951+01:00:2022-01-11T12:41:55.1030888+01:00:[AssemblyCache] Trying to resolve 'Calculator' from .deps.json file
+2022-01-11T12:41:55.1050811+01:00:2022-01-11T12:41:55.1046194+01:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'Calculator', found in dependency map, but unable to resolve a path in ['Calculator.dll']
+2022-01-11T12:41:55.1057485+01:00:2022-01-11T12:41:55.1054026+01:00:[AssemblyCache] Could not resolve 'Calculator' from .deps.json
+2022-01-11T12:41:55.1076393+01:00:2022-01-11T12:41:55.1072783+01:00:[AssemblyCache] Trying to resolve 'Calculator' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:55.1122004+01:00:2022-01-11T12:41:55.1117665+01:00:[AssemblyCache] Trying to resolve 'Calculator' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Calculator.dll'
+2022-01-11T12:41:55.1129305+01:00:2022-01-11T12:41:55.1126113+01:00:[AssemblyCache] Found file 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Calculator.dll' for assembly 'Calculator'
+2022-01-11T12:41:55.1144390+01:00:2022-01-11T12:41:55.1140181+01:00:[AssemblyCache] Resolved 'Calculator' to C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Calculator.dll
+2022-01-11T12:41:55.1202064+01:00:2022-01-11T12:41:55.1197222+01:00:Thread#0:T:done: CalculatorStepDefinitions.GivenTheNumbersAre("50,50,100") (0,0s)
+2022-01-11T12:41:55.1223368+01:00:2022-01-11T12:41:55.1219547+01:00:Thread#0:B:When the numbers are added
+2022-01-11T12:41:55.1250776+01:00:2022-01-11T12:41:55.1246234+01:00:Thread#0:T:done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0,0s)
+2022-01-11T12:41:55.1260868+01:00:2022-01-11T12:41:55.1257223+01:00:Thread#0:B:Then the result should be 200
+2022-01-11T12:41:55.1273524+01:00:2022-01-11T12:41:55.1270071+01:00:Assembly resolving FluentAssertions, Version=6.2.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2022-01-11T12:41:55.1279507+01:00:2022-01-11T12:41:55.1276604+01:00:[AssemblyCache] Trying to resolve 'FluentAssertions' from .deps.json file
+2022-01-11T12:41:55.1287201+01:00:2022-01-11T12:41:55.1283872+01:00:[AssemblyCache] Resolved 'FluentAssertions' to 'C:\Users\fouca\.nuget\packages\fluentassertions\6.2.0\lib\netcoreapp3.0\FluentAssertions.dll'
+2022-01-11T12:41:55.1436985+01:00:2022-01-11T12:41:55.1432111+01:00:Thread#0:T:done: CalculatorStepDefinitions.ThenTheResultShouldBe("200") (0,0s)
+2022-01-11T12:41:55.1531127+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:55.1531935+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2022-01-11T12:41:55.1532033+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2022-01-11T12:41:55.1532701+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:41:55.1532758+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:41:55.1532777+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:41:55.1532798+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2022-01-11T12:41:55.1533109+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2022-01-11T12:41:55.1533505+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:41:55.2020275+01:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0,1413647 seconds
+2022-01-11T12:41:55.2048830+01:00:Thread#0: Test #5/0 is started on thread #0
+2022-01-11T12:41:55.2065745+01:00:2022-01-11T12:41:55.2061803+01:00:Thread#0:B:Given the numbers are 2,2,2,2,2
+2022-01-11T12:41:55.2074286+01:00:2022-01-11T12:41:55.2071064+01:00:Thread#0:T:done: CalculatorStepDefinitions.GivenTheNumbersAre("2,2,2,2,2") (0,0s)
+2022-01-11T12:41:55.2081217+01:00:2022-01-11T12:41:55.2078250+01:00:Thread#0:B:When the numbers are multiplied
+2022-01-11T12:41:55.2095951+01:00:2022-01-11T12:41:55.2092512+01:00:Thread#0:T:done: CalculatorStepDefinitions.WhenTheTwoNumbersAreMultiplied() (0,0s)
+2022-01-11T12:41:55.2103132+01:00:2022-01-11T12:41:55.2100046+01:00:Thread#0:B:Then the result should be 32
+2022-01-11T12:41:55.2111712+01:00:2022-01-11T12:41:55.2107968+01:00:Thread#0:T:done: CalculatorStepDefinitions.ThenTheResultShouldBe("32") (0,0s)
+2022-01-11T12:41:55.2126411+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:55.2126836+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2022-01-11T12:41:55.2126896+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2022-01-11T12:41:55.2127278+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:41:55.2127329+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:41:55.2127361+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:41:55.2127393+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2022-01-11T12:41:55.2127530+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2022-01-11T12:41:55.2127650+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:41:55.2151211+01:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0,0101492 seconds
+2022-01-11T12:41:55.2161120+01:00:Thread#0: Test #6/0 is started on thread #0
+2022-01-11T12:41:55.2181091+01:00:2022-01-11T12:41:55.2176135+01:00:Thread#0:B:Given the numbers are 4,2,2
+2022-01-11T12:41:55.2191397+01:00:2022-01-11T12:41:55.2186799+01:00:Thread#0:T:done: CalculatorStepDefinitions.GivenTheNumbersAre("4,2,2") (0,0s)
+2022-01-11T12:41:55.2201201+01:00:2022-01-11T12:41:55.2196264+01:00:Thread#0:B:When the numbers are divided
+2022-01-11T12:41:55.2224305+01:00:2022-01-11T12:41:55.2219894+01:00:Thread#0:T:done: CalculatorStepDefinitions.WhenTheTwoNumbersAreDivided() (0,0s)
+2022-01-11T12:41:55.2232422+01:00:2022-01-11T12:41:55.2228816+01:00:Thread#0:B:Then the result should be 1
+2022-01-11T12:41:55.3071625+01:00:2022-01-11T12:41:55.3066376+01:00:Assembly resolving xunit.assert, Culture=neutral, PublicKeyToken=null
+2022-01-11T12:41:55.3078451+01:00:2022-01-11T12:41:55.3074935+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' from .deps.json file
+2022-01-11T12:41:55.3084981+01:00:2022-01-11T12:41:55.3081830+01:00:[AssemblyCache] Could not resolve 'xunit.assert' from .deps.json
+2022-01-11T12:41:55.3092238+01:00:2022-01-11T12:41:55.3088974+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:55.3099365+01:00:2022-01-11T12:41:55.3095402+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\xunit.assert.dll'
+2022-01-11T12:41:55.3108388+01:00:2022-01-11T12:41:55.3104754+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\xunit.assert.exe'
+2022-01-11T12:41:55.3114321+01:00:2022-01-11T12:41:55.3111575+01:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:55.3125112+01:00:2022-01-11T12:41:55.3120951+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T12:41:55.3139111+01:00:2022-01-11T12:41:55.3134031+01:00:Tfm: netcoreapp3.1
+2022-01-11T12:41:55.3145933+01:00:2022-01-11T12:41:55.3142302+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:41:55.3152689+01:00:2022-01-11T12:41:55.3149039+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\xunit.assert.dll'
+2022-01-11T12:41:55.3162536+01:00:2022-01-11T12:41:55.3157355+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\xunit.assert.exe'
+2022-01-11T12:41:55.3178783+01:00:2022-01-11T12:41:55.3167071+01:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:41:55.3278669+01:00:2022-01-11T12:41:55.3273911+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22'
+2022-01-11T12:41:55.3284558+01:00:2022-01-11T12:41:55.3281945+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22\xunit.assert.dll'
+2022-01-11T12:41:55.3290911+01:00:2022-01-11T12:41:55.3287925+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22\xunit.assert.exe'
+2022-01-11T12:41:55.3297112+01:00:2022-01-11T12:41:55.3294113+01:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22'
+2022-01-11T12:41:55.3306506+01:00:2022-01-11T12:41:55.3302783+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22'
+2022-01-11T12:41:55.3312625+01:00:2022-01-11T12:41:55.3309609+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22\xunit.assert.dll'
+2022-01-11T12:41:55.3318316+01:00:2022-01-11T12:41:55.3315538+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22\xunit.assert.exe'
+2022-01-11T12:41:55.3324372+01:00:2022-01-11T12:41:55.3321534+01:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22'
+2022-01-11T12:41:55.3331173+01:00:2022-01-11T12:41:55.3328274+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22'
+2022-01-11T12:41:55.3336236+01:00:2022-01-11T12:41:55.3333702+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22\xunit.assert.dll'
+2022-01-11T12:41:55.3342696+01:00:2022-01-11T12:41:55.3339834+01:00:[AssemblyCache] Trying to resolve 'xunit.assert' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22\xunit.assert.exe'
+2022-01-11T12:41:55.3348585+01:00:2022-01-11T12:41:55.3345837+01:00:[AssemblyCache] Could not resolve 'xunit.assert' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22'
+2022-01-11T12:41:55.3565894+01:00:2022-01-11T12:41:55.3561527+01:00:Thread#0:T:error: Expected _result to be "1" with a length of 1, but "64" has a length of 2, differs near "64" (index 0). (0,1s)
+2022-01-11T12:41:55.3603102+01:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2022-01-11T12:41:55.3612647+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:55.3613144+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2022-01-11T12:41:55.3613184+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2022-01-11T12:41:55.3613503+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:41:55.3613539+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:41:55.3613559+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:41:55.3613578+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2022-01-11T12:41:55.3613698+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2022-01-11T12:41:55.3613771+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2022-01-11T12:41:55.3635807+01:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 0,1474328 seconds
+2022-01-11T12:41:55.3646279+01:00:Thread#0: Test #6/1 is started on thread #0
+2022-01-11T12:41:55.3656225+01:00:2022-01-11T12:41:55.3651869+01:00:Thread#0:B:Given the numbers are 4,2,2
+2022-01-11T12:41:55.3731025+01:00:2022-01-11T12:41:55.3662157+01:00:Thread#0:T:done: CalculatorStepDefinitions.GivenTheNumbersAre("4,2,2") (0,0s)
+2022-01-11T12:41:55.3740158+01:00:2022-01-11T12:41:55.3736483+01:00:Thread#0:B:When the numbers are divided
+2022-01-11T12:41:55.3748593+01:00:2022-01-11T12:41:55.3745383+01:00:Thread#0:T:done: CalculatorStepDefinitions.WhenTheTwoNumbersAreDivided() (0,0s)
+2022-01-11T12:41:55.3755429+01:00:2022-01-11T12:41:55.3752641+01:00:Thread#0:B:Then the result should be 1
+2022-01-11T12:41:55.3779639+01:00:2022-01-11T12:41:55.3775194+01:00:Thread#0:T:error: Expected _result to be "1" with a length of 1, but "64" has a length of 2, differs near "64" (index 0). (0,0s)
+2022-01-11T12:41:55.3830195+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:55.3830427+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2022-01-11T12:41:55.3830459+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2022-01-11T12:41:55.3830815+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:41:55.3830850+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:41:55.3830868+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:41:55.3830888+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2022-01-11T12:41:55.3831010+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2022-01-11T12:41:55.3831084+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2022-01-11T12:41:55.3848024+01:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 0,0201143 seconds
+2022-01-11T12:41:55.3855739+01:00:Thread#0: Test #6/2 is started on thread #0
+2022-01-11T12:41:55.3867912+01:00:2022-01-11T12:41:55.3863977+01:00:Thread#0:B:Given the numbers are 4,2,2
+2022-01-11T12:41:55.3882036+01:00:2022-01-11T12:41:55.3875413+01:00:Thread#0:T:done: CalculatorStepDefinitions.GivenTheNumbersAre("4,2,2") (0,0s)
+2022-01-11T12:41:55.3891611+01:00:2022-01-11T12:41:55.3888051+01:00:Thread#0:B:When the numbers are divided
+2022-01-11T12:41:55.3899625+01:00:2022-01-11T12:41:55.3896599+01:00:Thread#0:T:done: CalculatorStepDefinitions.WhenTheTwoNumbersAreDivided() (0,0s)
+2022-01-11T12:41:55.3905722+01:00:2022-01-11T12:41:55.3903186+01:00:Thread#0:B:Then the result should be 1
+2022-01-11T12:41:55.3931117+01:00:2022-01-11T12:41:55.3926833+01:00:Thread#0:T:error: Expected _result to be "1" with a length of 1, but "64" has a length of 2, differs near "64" (index 0). (0,0s)
+2022-01-11T12:41:55.3947904+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:55.3948202+01:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2022-01-11T12:41:55.3948238+01:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2022-01-11T12:41:55.3948579+01:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:41:55.3948620+01:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:41:55.3948637+01:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:41:55.3948657+01:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2022-01-11T12:41:55.3948769+01:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2022-01-11T12:41:55.3948941+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:41:55.3964891+01:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 0,0108692 seconds
+2022-01-11T12:41:55.3971880+01:00:Thread#0: Test #7/0 is started on thread #0
+2022-01-11T12:41:55.3994906+01:00:2022-01-11T12:41:55.3990577+01:00:Thread#0:B:Given the numbers are 0,2,10
+2022-01-11T12:41:55.4005379+01:00:2022-01-11T12:41:55.4001167+01:00:Thread#0:T:done: CalculatorStepDefinitions.GivenTheNumbersAre("0,2,10") (0,0s)
+2022-01-11T12:41:55.4012419+01:00:2022-01-11T12:41:55.4009377+01:00:Thread#0:B:When the numbers are divided
+2022-01-11T12:41:55.4020151+01:00:2022-01-11T12:41:55.4017141+01:00:Thread#0:T:done: CalculatorStepDefinitions.WhenTheTwoNumbersAreDivided() (0,0s)
+2022-01-11T12:41:55.4027071+01:00:2022-01-11T12:41:55.4023847+01:00:Thread#0:B:Then the result should be 0
+2022-01-11T12:41:55.4040758+01:00:2022-01-11T12:41:55.4036214+01:00:Thread#0:T:done: CalculatorStepDefinitions.ThenTheResultShouldBe("0") (0,0s)
+2022-01-11T12:41:55.4055043+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:55.4055340+01:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2022-01-11T12:41:55.4055394+01:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2022-01-11T12:41:55.4055694+01:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:41:55.4055758+01:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:41:55.4055802+01:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:41:55.4055886+01:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2022-01-11T12:41:55.4056053+01:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2022-01-11T12:41:55.4056154+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:41:55.4077178+01:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0,0104879 seconds
+2022-01-11T12:41:55.4083954+01:00:Thread#0: Test #8/0 is started on thread #0
+2022-01-11T12:41:55.4107050+01:00:2022-01-11T12:41:55.4102615+01:00:Thread#0:B:Given the numbers are 50,2,0
+2022-01-11T12:41:55.4115341+01:00:2022-01-11T12:41:55.4112487+01:00:Thread#0:T:done: CalculatorStepDefinitions.GivenTheNumbersAre("50,2,0") (0,0s)
+2022-01-11T12:41:55.4121314+01:00:2022-01-11T12:41:55.4118786+01:00:Thread#0:B:When the numbers are divided
+2022-01-11T12:41:55.4127799+01:00:2022-01-11T12:41:55.4125276+01:00:Thread#0:T:done: CalculatorStepDefinitions.WhenTheTwoNumbersAreDivided() (0,0s)
+2022-01-11T12:41:55.4133337+01:00:2022-01-11T12:41:55.4130924+01:00:Thread#0:B:Then the result should be error
+2022-01-11T12:41:55.4139836+01:00:2022-01-11T12:41:55.4137178+01:00:Thread#0:T:done: CalculatorStepDefinitions.ThenTheResultShouldBe("error") (0,0s)
+2022-01-11T12:41:55.4149983+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:41:55.4150218+01:00:Thread#:Scheduler: at the end of normal test queue
+2022-01-11T12:41:55.4150265+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2022-01-11T12:41:55.4150309+01:00:Thread#0:Scheduler: No more tests for thread
+2022-01-11T12:41:55.4186273+01:00:Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0,0101907 seconds
+2022-01-11T12:41:55.4289096+01:00:2022-01-11T12:41:55.4286091+01:00:Got Deinitialize Signal
+2022-01-11T12:41:55.4329836+01:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2022-01-11T12:41:55.4342608+01:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2022-01-11T12:41:55.4366130+01:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2022-01-11T12:41:55.4390266+01:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:41:55.4390706+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2022-01-11T12:41:55.4390837+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2022-01-11T12:41:55.4390980+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:55.4391026+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:41:55.4391623+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:41:55.4392059+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:41:55.4392188+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T12:41:55.4393164+01:00:Tfm: netcoreapp3.1
+2022-01-11T12:41:55.4393266+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:41:55.4393304+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:41:55.4393924+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:41:55.4394362+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:41:55.4487673+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22'
+2022-01-11T12:41:55.4487996+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:41:55.4488958+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:41:55.4489478+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22'
+2022-01-11T12:41:55.4492821+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22'
+2022-01-11T12:41:55.4493005+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:41:55.4493654+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:41:55.4494093+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22'
+2022-01-11T12:41:55.4495998+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22'
+2022-01-11T12:41:55.4496177+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:41:55.4496777+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:41:55.4497207+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22'
+2022-01-11T12:41:55.4514550+01:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:41:55.4625206+01:00:Thread#-1:Scheduler: get next test for thread -1
+2022-01-11T12:41:55.4625593+01:00:Thread#:Scheduler: at the end of normal test queue
+2022-01-11T12:41:55.4625657+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2022-01-11T12:41:55.4719408+01:00;Thread#12;Info;test run finished
+2022-01-11T12:41:55.4722380+01:00;Thread#12;Info;publishing test results
+2022-01-11T12:41:55.4724844+01:00;Thread#12;Info;Not publishing results.
+2022-01-11T12:41:55.4725883+01:00;Thread#12;Info;test results published
+2022-01-11T12:41:55.4726526+01:00;Thread#12;Info;generating reports
+2022-01-11T12:41:55.6120670+01:00;Thread#12;Info;Starting external report generation process
+2022-01-11T12:41:57.7035314+01:00;Thread#12;Info;Successfully generated reports.
+2022-01-11T12:41:57.7073562+01:00;Thread#12;Info;Successfully generated reports
+2022-01-11T12:41:57.7199073+01:00:Total: 5 (test executions: 7)
+2022-01-11T12:41:57.7221503+01:00:Succeeded: 4
+2022-01-11T12:41:57.7225411+01:00:Ignored: 0
+2022-01-11T12:41:57.7228240+01:00:Pending: 0
+2022-01-11T12:41:57.7228397+01:00:Skipped: 0
+2022-01-11T12:41:57.7233895+01:00:Failed: 1
+2022-01-11T12:41:57.7306870+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2022-01-11T12:41:57.7307727+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults\Unnamed project__2022-01-11T124152.html'
+========== End of log file ==========

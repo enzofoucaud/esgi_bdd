@@ -1,30 +1,49 @@
 ﻿using System;
+using System.Linq;
 
 namespace SpecFlowCalculator
 {
     public class Calculator
     {
-        public string FirstNumber { get; set; }
-        public string SecondNumber { get; set; }
+        public string[] Numbers { get; set; }
 
         public string Add()
         {
-            return Convert.ToString(Convert.ToDouble(FirstNumber) + Convert.ToDouble(SecondNumber));
+            string sum = "0";
+            foreach (string number in Numbers)
+            {
+                sum = Convert.ToString(Convert.ToDouble(sum) + Convert.ToDouble(number));
+            }
+            return sum;
         }
         public string Multi()
         {
-            return Convert.ToString(Convert.ToDouble(FirstNumber) * Convert.ToDouble(SecondNumber));
+            string sum = "1";
+            foreach (string number in Numbers)
+            {
+                sum = Convert.ToString(Convert.ToDouble(sum) * Convert.ToDouble(number));
+            }
+            return sum;
         }
         public string Divide()
         {
-            if (FirstNumber == "0") {
-                return "0";
-            } else if (SecondNumber == "0") {
-                return "error";
-            } else
+            string sum = Numbers.First();
+            foreach (string number in Numbers.Skip(1).ToArray())
             {
-                return Convert.ToString(Convert.ToDouble(FirstNumber) / Convert.ToDouble(SecondNumber));
+                if (sum == "0")
+                {
+                    return "0";
+                }
+                else if (number == "0")
+                {
+                    return "error";
+                }
+                else
+                {
+                    sum = Convert.ToString(Convert.ToDouble(sum) / Convert.ToDouble(number));
+                }
             }
+            return sum;
         }
     }
 }

@@ -1,0 +1,434 @@
+﻿2022-01-11T12:27:12.9624529+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-01-11T12:27:12.9626744+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework netcore31 in x64 mode execution started
+2022-01-11T12:27:12.9626795+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-01-11T12:27:12.9642757+01:00;VSTestExecutionThread;Info;Current UserName: 'fouca', MachineName: 'LAPTOP-ENZO'
+2022-01-11T12:27:12.9902350+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:27:12.9904186+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults" (default)
+2022-01-11T12:27:12.9904738+01:00;VSTestExecutionThread;Info;Profile: 
+2022-01-11T12:27:13.0309096+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults\Unnamed project__2022-01-11T122712.log
+2022-01-11T12:27:13.0359100+01:00;Thread#12;Info;Checking activation
+2022-01-11T12:27:13.1099838+01:00;Thread#12;Info;Activated.
+2022-01-11T12:27:13.1102133+01:00;Thread#12;Info;Activation check completed
+2022-01-11T12:27:13.1102838+01:00;Thread#12;Info;Starting test run
+2022-01-11T12:27:13.1916216+01:00;Thread#12;Info;Discovering target: Default
+2022-01-11T12:27:13.1918420+01:00;Thread#12;Info;Discovering tests from assembly: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:27:13.2712874+01:00;Thread#12;Info;Discovered tests from assembly: C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:27:13.2725403+01:00:Test Suite Dump
+2022-01-11T12:27:13.2743304+01:00:#0: Unnamed project/ - 
+2022-01-11T12:27:13.2743682+01:00:#1: Default - 
+2022-01-11T12:27:13.2743711+01:00:#2: SpecFlowCalculator.Specs - 
+2022-01-11T12:27:13.2743730+01:00:#3: Calculator - 
+2022-01-11T12:27:13.2752316+01:00:#4: Add two numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Add+two+numbers
+2022-01-11T12:27:13.2752637+01:00:#5: Multiple two numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Multiple+two+numbers
+2022-01-11T12:27:13.2752777+01:00:#6: Divide two random numbers - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+two+random+numbers
+2022-01-11T12:27:13.2752838+01:00:#7: Divide with 0 in dividend - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+with+0+in+dividend
+2022-01-11T12:27:13.2752890+01:00:#8: Divide with 0 in divisor - TestAssembly:SpecFlowCalculator.Specs/Feature:Calculator/Scenario:Divide+with+0+in+divisor
+2022-01-11T12:27:13.2753151+01:00:End: Test Suite Dump
+2022-01-11T12:27:13.2883637+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:27:13.2897838+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2022-01-11T12:27:13.2898338+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-01-11T12:27:13.2923204+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:27:13.2923332+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:27:13.2923354+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:27:13.2923375+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-01-11T12:27:13.2928237+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-01-11T12:27:13.2936330+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:27:13.2953476+01:00:Thread #0: creating new test thread executor for SpecFlowCalculator.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2022-01-11T12:27:13.2973859+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-11T12:27:13.2975737+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-11T12:27:13.2993667+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2022-01-11T12:27:13.3006951+01:00:starting Out Of Process Executor
+2022-01-11T12:27:13.3020144+01:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:27:13.3044442+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2022-01-11T12:27:13.3044631+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2022-01-11T12:27:13.3053628+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:27:13.3056852+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2022-01-11T12:27:13.3057651+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2022-01-11T12:27:13.3057878+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:27:13.3059388+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T12:27:13.3063801+01:00:Tfm: netcoreapp3.1
+2022-01-11T12:27:13.3063933+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:27:13.3064010+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2022-01-11T12:27:13.3064666+01:00:[AssemblyCache] Found file 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2022-01-11T12:27:13.3067545+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2022-01-11T12:27:13.3072391+01:00:Starting callback TCP Rpc server
+2022-01-11T12:27:13.3208772+01:00:Asynchronously starting background TCP Rpc Server on port 32768
+2022-01-11T12:27:13.3209259+01:00:Started callback TCP Rpc server on port 32768
+2022-01-11T12:27:13.3209287+01:00:Starting logger TCP Rpc server
+2022-01-11T12:27:13.3226046+01:00:Asynchronously starting background TCP Rpc Server on port 32769
+2022-01-11T12:27:13.3226340+01:00:Started logger TCP Rpc server on port 32769
+2022-01-11T12:27:13.3908547+01:00:Executing test executor at 'dotnet' 'exec "C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 23696 --uniqueId "2022-01-11T122712" --outputFolder "C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:27:13.4003935+01:00:Executor with PID 17496 has been started successfully.
+2022-01-11T12:27:13.4056438+01:00:Out of Process Executor 17496 started
+2022-01-11T12:27:13.4056879+01:00:Waiting for endpoint
+2022-01-11T12:27:13.6822190+01:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:27:13.6822450+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2022-01-11T12:27:13.6822481+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2022-01-11T12:27:13.6822511+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:27:13.6822638+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2022-01-11T12:27:13.6822899+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2022-01-11T12:27:13.6823083+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:27:13.6823117+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T12:27:13.6823367+01:00:Tfm: netcoreapp3.1
+2022-01-11T12:27:13.6823401+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:27:13.6823471+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2022-01-11T12:27:13.6823997+01:00:[AssemblyCache] Found file 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2022-01-11T12:27:13.6828210+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2022-01-11T12:27:13.8945866+01:00:Remote executor port received: 32770
+2022-01-11T12:27:13.8948785+01:00:Creating executor TCP client on port 32770
+2022-01-11T12:27:13.8951997+01:00:Created executor TCP client on port 32770
+2022-01-11T12:27:13.8952114+01:00:Connecting to remote executor TCP server
+2022-01-11T12:27:13.8962477+01:00:Connected remote executor TCP server
+2022-01-11T12:27:13.8967009+01:00:trying to connect to Out of Process Executor the 1 attempt
+2022-01-11T12:27:13.8967195+01:00:Connection to Out of Process Executor established in the 1 attempt
+2022-01-11T12:27:14.0252704+01:00:2022-01-11T12:27:14.0243603+01:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll on test thread #0
+2022-01-11T12:27:14.0289689+01:00:Endpoint 17496 started
+2022-01-11T12:27:14.0449421+01:00:2022-01-11T12:27:14.0444409+01:00:OutOfProcessTestAssemblyExecutor: running tests...
+2022-01-11T12:27:14.1480927+01:00:2022-01-11T12:27:14.1473950+01:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-11T12:27:14.1513348+01:00:2022-01-11T12:27:14.1508883+01:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2022-01-11T12:27:14.1539780+01:00:2022-01-11T12:27:14.1535029+01:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\fouca\.nuget\packages\specflow\3.9.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2022-01-11T12:27:14.2420303+01:00:2022-01-11T12:27:14.2409069+01:00:Thread#0:T:-> Loading plugin C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowCalculator.Specs.dll
+2022-01-11T12:27:14.2444350+01:00:2022-01-11T12:27:14.2434600+01:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-11T12:27:14.2462448+01:00:2022-01-11T12:27:14.2452177+01:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2022-01-11T12:27:14.2483540+01:00:2022-01-11T12:27:14.2471847+01:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\fouca\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2022-01-11T12:27:14.2836622+01:00:2022-01-11T12:27:14.2825552+01:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-11T12:27:14.2851550+01:00:2022-01-11T12:27:14.2843487+01:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2022-01-11T12:27:14.2865135+01:00:2022-01-11T12:27:14.2858433+01:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\fouca\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2022-01-11T12:27:14.2937899+01:00:2022-01-11T12:27:14.2928232+01:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in SpecFlowCalculator.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2022-01-11T12:27:14.2951727+01:00:2022-01-11T12:27:14.2944772+01:00:Thread#0:T:-> Loading plugin C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2022-01-11T12:27:14.2981316+01:00:2022-01-11T12:27:14.2974118+01:00:Assembly resolving LivingDoc.Dtos, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+2022-01-11T12:27:14.2988927+01:00:2022-01-11T12:27:14.2985186+01:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2022-01-11T12:27:14.2996097+01:00:2022-01-11T12:27:14.2993056+01:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\fouca\.nuget\packages\specflow.plus.livingdocplugin\3.9.57\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2022-01-11T12:27:14.3020256+01:00:2022-01-11T12:27:14.3016407+01:00:Thread#0:T:-> Loading plugin C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2022-01-11T12:27:14.3086289+01:00:2022-01-11T12:27:14.3082238+01:00:Thread#0:T:-> Using default config
+2022-01-11T12:27:14.3169136+01:00:2022-01-11T12:27:14.3165007+01:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2022-01-11T12:27:14.3175617+01:00:2022-01-11T12:27:14.3172340+01:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2022-01-11T12:27:14.3182590+01:00:2022-01-11T12:27:14.3179687+01:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\fouca\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2022-01-11T12:27:14.3196358+01:00:2022-01-11T12:27:14.3193374+01:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2022-01-11T12:27:14.3201819+01:00:2022-01-11T12:27:14.3199073+01:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2022-01-11T12:27:14.3208220+01:00:2022-01-11T12:27:14.3205387+01:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\fouca\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2022-01-11T12:27:14.3264038+01:00:2022-01-11T12:27:14.3260005+01:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:27:14.3270249+01:00:2022-01-11T12:27:14.3267167+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2022-01-11T12:27:14.3278180+01:00:2022-01-11T12:27:14.3274774+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\fouca\.nuget\packages\microsoft.testplatform.objectmodel\17.0.0\lib\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2022-01-11T12:27:14.3521713+01:00:2022-01-11T12:27:14.3517370+01:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-11T12:27:14.3526243+01:00:2022-01-11T12:27:14.3524251+01:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2022-01-11T12:27:14.3532074+01:00:2022-01-11T12:27:14.3529471+01:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\fouca\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2022-01-11T12:27:14.4163735+01:00:Thread#0: Test #4/0 is started on thread #0
+2022-01-11T12:27:14.4303989+01:00:2022-01-11T12:27:14.4298516+01:00:Thread#0:B:Given the first number is 50,50,100
+2022-01-11T12:27:14.4623857+01:00:2022-01-11T12:27:14.4619329+01:00:Assembly resolving Gherkin, Version=19.0.3.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851
+2022-01-11T12:27:14.4629698+01:00:2022-01-11T12:27:14.4626972+01:00:[AssemblyCache] Trying to resolve 'Gherkin' from .deps.json file
+2022-01-11T12:27:14.4638423+01:00:2022-01-11T12:27:14.4633693+01:00:[AssemblyCache] Resolved 'Gherkin' to 'C:\Users\fouca\.nuget\packages\gherkin\19.0.3\lib\netstandard2.0\Gherkin.dll'
+2022-01-11T12:27:14.4976995+01:00:2022-01-11T12:27:14.4971212+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.4983168+01:00:2022-01-11T12:27:14.4980157+01:00:Thread#0:T:        [Given(@"the first number is (.*),(.*)")]
+2022-01-11T12:27:14.4987420+01:00:2022-01-11T12:27:14.4985391+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(Decimal p0, int p1)
+2022-01-11T12:27:14.4991939+01:00:2022-01-11T12:27:14.4989723+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.4997381+01:00:2022-01-11T12:27:14.4994586+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.5002380+01:00:2022-01-11T12:27:14.4999646+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.5019725+01:00:2022-01-11T12:27:14.5017100+01:00:Thread#0:B:When the two numbers are added
+2022-01-11T12:27:14.5048615+01:00:2022-01-11T12:27:14.5045467+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.5078021+01:00:2022-01-11T12:27:14.5074951+01:00:Thread#0:B:Then the result should be 200
+2022-01-11T12:27:14.5088402+01:00:2022-01-11T12:27:14.5085629+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.5536927+01:00:2022-01-11T12:27:14.5532808+01:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2022-01-11T12:27:14.5541175+01:00:2022-01-11T12:27:14.5539202+01:00:Thread#0:T:using System;
+2022-01-11T12:27:14.5545048+01:00:2022-01-11T12:27:14.5543096+01:00:Thread#0:T:using TechTalk.SpecFlow;
+2022-01-11T12:27:14.5548331+01:00:2022-01-11T12:27:14.5546504+01:00:Thread#0:T:namespace MyNamespace
+2022-01-11T12:27:14.5551997+01:00:2022-01-11T12:27:14.5550179+01:00:Thread#0:T:{
+2022-01-11T12:27:14.5555700+01:00:2022-01-11T12:27:14.5553770+01:00:Thread#0:T:    [Binding]
+2022-01-11T12:27:14.5559287+01:00:2022-01-11T12:27:14.5557454+01:00:Thread#0:T:    public class StepDefinitions
+2022-01-11T12:27:14.5562878+01:00:2022-01-11T12:27:14.5561072+01:00:Thread#0:T:    {
+2022-01-11T12:27:14.5566308+01:00:2022-01-11T12:27:14.5564551+01:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2022-01-11T12:27:14.5569704+01:00:2022-01-11T12:27:14.5567964+01:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2022-01-11T12:27:14.5573118+01:00:2022-01-11T12:27:14.5571366+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.5576495+01:00:2022-01-11T12:27:14.5574851+01:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2022-01-11T12:27:14.5579791+01:00:2022-01-11T12:27:14.5578176+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.5583067+01:00:2022-01-11T12:27:14.5581435+01:00:Thread#0:T:        [Given(@"the first number is (.*),(.*)")]
+2022-01-11T12:27:14.5586053+01:00:2022-01-11T12:27:14.5584436+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(Decimal p0, int p1)
+2022-01-11T12:27:14.5589219+01:00:2022-01-11T12:27:14.5587380+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.5592296+01:00:2022-01-11T12:27:14.5590584+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.5595578+01:00:2022-01-11T12:27:14.5593620+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.5599662+01:00:2022-01-11T12:27:14.5597587+01:00:Thread#0:T:    }
+2022-01-11T12:27:14.5602742+01:00:2022-01-11T12:27:14.5601068+01:00:Thread#0:T:}
+2022-01-11T12:27:14.5666367+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:27:14.5666888+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2022-01-11T12:27:14.5666929+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2022-01-11T12:27:14.5667404+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:27:14.5667452+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:27:14.5667468+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:27:14.5667486+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2022-01-11T12:27:14.5667742+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2022-01-11T12:27:14.5668056+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:27:14.6036716+01:00:Thread#0: Test #4/0 is finished on thread #0 as Pending within 0,1862804 seconds
+2022-01-11T12:27:14.6057812+01:00:Thread#0: Test #5/0 is started on thread #0
+2022-01-11T12:27:14.6072160+01:00:2022-01-11T12:27:14.6068990+01:00:Thread#0:B:Given the first number is 2
+2022-01-11T12:27:14.6119207+01:00:2022-01-11T12:27:14.6114979+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.6125080+01:00:2022-01-11T12:27:14.6122505+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.6140078+01:00:2022-01-11T12:27:14.6130216+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.6147946+01:00:2022-01-11T12:27:14.6143586+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.6155241+01:00:2022-01-11T12:27:14.6151509+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.6162126+01:00:2022-01-11T12:27:14.6158945+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.6172159+01:00:2022-01-11T12:27:14.6168737+01:00:Thread#0:B:And the second number is 10
+2022-01-11T12:27:14.6217972+01:00:2022-01-11T12:27:14.6213796+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.6222618+01:00:2022-01-11T12:27:14.6220395+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.6227130+01:00:2022-01-11T12:27:14.6224706+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.6231910+01:00:2022-01-11T12:27:14.6229383+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.6235662+01:00:2022-01-11T12:27:14.6233605+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.6239822+01:00:2022-01-11T12:27:14.6237541+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.6245286+01:00:2022-01-11T12:27:14.6242813+01:00:Thread#0:B:When the two numbers are multiplied
+2022-01-11T12:27:14.6250858+01:00:2022-01-11T12:27:14.6248410+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.6255749+01:00:2022-01-11T12:27:14.6253284+01:00:Thread#0:B:Then the result should be 20
+2022-01-11T12:27:14.6260285+01:00:2022-01-11T12:27:14.6258334+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.6518476+01:00:2022-01-11T12:27:14.6514415+01:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2022-01-11T12:27:14.6522509+01:00:2022-01-11T12:27:14.6520466+01:00:Thread#0:T:using System;
+2022-01-11T12:27:14.6525676+01:00:2022-01-11T12:27:14.6524076+01:00:Thread#0:T:using TechTalk.SpecFlow;
+2022-01-11T12:27:14.6529004+01:00:2022-01-11T12:27:14.6527075+01:00:Thread#0:T:namespace MyNamespace
+2022-01-11T12:27:14.6532800+01:00:2022-01-11T12:27:14.6530858+01:00:Thread#0:T:{
+2022-01-11T12:27:14.6536933+01:00:2022-01-11T12:27:14.6534261+01:00:Thread#0:T:    [Binding]
+2022-01-11T12:27:14.6542385+01:00:2022-01-11T12:27:14.6539116+01:00:Thread#0:T:    public class StepDefinitions
+2022-01-11T12:27:14.6547887+01:00:2022-01-11T12:27:14.6544899+01:00:Thread#0:T:    {
+2022-01-11T12:27:14.6552834+01:00:2022-01-11T12:27:14.6550410+01:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2022-01-11T12:27:14.6556698+01:00:2022-01-11T12:27:14.6554350+01:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2022-01-11T12:27:14.6560797+01:00:2022-01-11T12:27:14.6558529+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.6564965+01:00:2022-01-11T12:27:14.6562661+01:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2022-01-11T12:27:14.6569032+01:00:2022-01-11T12:27:14.6566818+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.6573123+01:00:2022-01-11T12:27:14.6570810+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.6576958+01:00:2022-01-11T12:27:14.6574669+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.6581018+01:00:2022-01-11T12:27:14.6578722+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.6584852+01:00:2022-01-11T12:27:14.6582855+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.6588749+01:00:2022-01-11T12:27:14.6586548+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.6592634+01:00:2022-01-11T12:27:14.6590465+01:00:Thread#0:T:        
+2022-01-11T12:27:14.6596085+01:00:2022-01-11T12:27:14.6594027+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.6599641+01:00:2022-01-11T12:27:14.6597773+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.6602979+01:00:2022-01-11T12:27:14.6601261+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.6606490+01:00:2022-01-11T12:27:14.6604413+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.6610024+01:00:2022-01-11T12:27:14.6608102+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.6613896+01:00:2022-01-11T12:27:14.6611660+01:00:Thread#0:T:    }
+2022-01-11T12:27:14.6617577+01:00:2022-01-11T12:27:14.6615542+01:00:Thread#0:T:}
+2022-01-11T12:27:14.6627203+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:27:14.6627452+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2022-01-11T12:27:14.6627478+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2022-01-11T12:27:14.6627741+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:27:14.6627769+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:27:14.6627851+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:27:14.6627869+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2022-01-11T12:27:14.6627956+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2022-01-11T12:27:14.6628020+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:27:14.6683620+01:00:Thread#0: Test #5/0 is finished on thread #0 as Pending within 0,0625103 seconds
+2022-01-11T12:27:14.6693151+01:00:Thread#0: Test #6/0 is started on thread #0
+2022-01-11T12:27:14.6708258+01:00:2022-01-11T12:27:14.6704697+01:00:Thread#0:B:Given the first number is 50
+2022-01-11T12:27:14.6752513+01:00:2022-01-11T12:27:14.6748791+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.6758262+01:00:2022-01-11T12:27:14.6755513+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.6763964+01:00:2022-01-11T12:27:14.6761023+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.6769614+01:00:2022-01-11T12:27:14.6766737+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.6775163+01:00:2022-01-11T12:27:14.6772218+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.6780712+01:00:2022-01-11T12:27:14.6777828+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.6787033+01:00:2022-01-11T12:27:14.6784581+01:00:Thread#0:B:And the second number is 25
+2022-01-11T12:27:14.6839336+01:00:2022-01-11T12:27:14.6835146+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.6845128+01:00:2022-01-11T12:27:14.6842331+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.6850480+01:00:2022-01-11T12:27:14.6847814+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.6855704+01:00:2022-01-11T12:27:14.6852973+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.6860894+01:00:2022-01-11T12:27:14.6858194+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.6865825+01:00:2022-01-11T12:27:14.6863352+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.6872078+01:00:2022-01-11T12:27:14.6869425+01:00:Thread#0:B:When the two numbers are divided
+2022-01-11T12:27:14.6877828+01:00:2022-01-11T12:27:14.6875200+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.6883317+01:00:2022-01-11T12:27:14.6880762+01:00:Thread#0:B:Then the result should be 2
+2022-01-11T12:27:14.6888910+01:00:2022-01-11T12:27:14.6886258+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.7082984+01:00:2022-01-11T12:27:14.7077984+01:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2022-01-11T12:27:14.7088978+01:00:2022-01-11T12:27:14.7086111+01:00:Thread#0:T:using System;
+2022-01-11T12:27:14.7094498+01:00:2022-01-11T12:27:14.7091610+01:00:Thread#0:T:using TechTalk.SpecFlow;
+2022-01-11T12:27:14.7099933+01:00:2022-01-11T12:27:14.7097098+01:00:Thread#0:T:namespace MyNamespace
+2022-01-11T12:27:14.7105511+01:00:2022-01-11T12:27:14.7102589+01:00:Thread#0:T:{
+2022-01-11T12:27:14.7110887+01:00:2022-01-11T12:27:14.7108130+01:00:Thread#0:T:    [Binding]
+2022-01-11T12:27:14.7115847+01:00:2022-01-11T12:27:14.7113495+01:00:Thread#0:T:    public class StepDefinitions
+2022-01-11T12:27:14.7120945+01:00:2022-01-11T12:27:14.7118313+01:00:Thread#0:T:    {
+2022-01-11T12:27:14.7126652+01:00:2022-01-11T12:27:14.7123485+01:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2022-01-11T12:27:14.7131395+01:00:2022-01-11T12:27:14.7129021+01:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2022-01-11T12:27:14.7135174+01:00:2022-01-11T12:27:14.7133419+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7139592+01:00:2022-01-11T12:27:14.7137554+01:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2022-01-11T12:27:14.7143597+01:00:2022-01-11T12:27:14.7141812+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7147156+01:00:2022-01-11T12:27:14.7145508+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.7150290+01:00:2022-01-11T12:27:14.7148850+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.7159615+01:00:2022-01-11T12:27:14.7157033+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7163581+01:00:2022-01-11T12:27:14.7161529+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.7167204+01:00:2022-01-11T12:27:14.7165307+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7170593+01:00:2022-01-11T12:27:14.7168768+01:00:Thread#0:T:        
+2022-01-11T12:27:14.7174029+01:00:2022-01-11T12:27:14.7172203+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.7177407+01:00:2022-01-11T12:27:14.7175621+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.7180335+01:00:2022-01-11T12:27:14.7178683+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7183790+01:00:2022-01-11T12:27:14.7181969+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.7187163+01:00:2022-01-11T12:27:14.7185355+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7190981+01:00:2022-01-11T12:27:14.7189046+01:00:Thread#0:T:    }
+2022-01-11T12:27:14.7194748+01:00:2022-01-11T12:27:14.7192804+01:00:Thread#0:T:}
+2022-01-11T12:27:14.7202026+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:27:14.7202206+01:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2022-01-11T12:27:14.7202232+01:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2022-01-11T12:27:14.7202540+01:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:27:14.7202580+01:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:27:14.7202596+01:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:27:14.7202613+01:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2022-01-11T12:27:14.7202699+01:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2022-01-11T12:27:14.7202832+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:27:14.7216253+01:00:Thread#0: Test #6/0 is finished on thread #0 as Pending within 0,0522789 seconds
+2022-01-11T12:27:14.7222353+01:00:Thread#0: Test #7/0 is started on thread #0
+2022-01-11T12:27:14.7242349+01:00:2022-01-11T12:27:14.7238115+01:00:Thread#0:B:Given the first number is 0
+2022-01-11T12:27:14.7296604+01:00:2022-01-11T12:27:14.7292367+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.7302516+01:00:2022-01-11T12:27:14.7299770+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.7308091+01:00:2022-01-11T12:27:14.7304939+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.7313093+01:00:2022-01-11T12:27:14.7310105+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7319000+01:00:2022-01-11T12:27:14.7315842+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.7322996+01:00:2022-01-11T12:27:14.7320706+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7332953+01:00:2022-01-11T12:27:14.7327671+01:00:Thread#0:B:And the second number is 3
+2022-01-11T12:27:14.7379660+01:00:2022-01-11T12:27:14.7375453+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.7385898+01:00:2022-01-11T12:27:14.7382912+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.7391310+01:00:2022-01-11T12:27:14.7388268+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.7396897+01:00:2022-01-11T12:27:14.7394052+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7402451+01:00:2022-01-11T12:27:14.7399563+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.7407559+01:00:2022-01-11T12:27:14.7404936+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7413547+01:00:2022-01-11T12:27:14.7410890+01:00:Thread#0:B:When the two numbers are divided
+2022-01-11T12:27:14.7419387+01:00:2022-01-11T12:27:14.7416720+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.7424880+01:00:2022-01-11T12:27:14.7422258+01:00:Thread#0:B:Then the result should be 0
+2022-01-11T12:27:14.7429987+01:00:2022-01-11T12:27:14.7427418+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.7636418+01:00:2022-01-11T12:27:14.7630548+01:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2022-01-11T12:27:14.7642352+01:00:2022-01-11T12:27:14.7639708+01:00:Thread#0:T:using System;
+2022-01-11T12:27:14.7647637+01:00:2022-01-11T12:27:14.7644281+01:00:Thread#0:T:using TechTalk.SpecFlow;
+2022-01-11T12:27:14.7653090+01:00:2022-01-11T12:27:14.7649659+01:00:Thread#0:T:namespace MyNamespace
+2022-01-11T12:27:14.7658325+01:00:2022-01-11T12:27:14.7655695+01:00:Thread#0:T:{
+2022-01-11T12:27:14.7668406+01:00:2022-01-11T12:27:14.7665056+01:00:Thread#0:T:    [Binding]
+2022-01-11T12:27:14.7673298+01:00:2022-01-11T12:27:14.7670896+01:00:Thread#0:T:    public class StepDefinitions
+2022-01-11T12:27:14.7678151+01:00:2022-01-11T12:27:14.7675588+01:00:Thread#0:T:    {
+2022-01-11T12:27:14.7684194+01:00:2022-01-11T12:27:14.7680643+01:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2022-01-11T12:27:14.7689301+01:00:2022-01-11T12:27:14.7686629+01:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2022-01-11T12:27:14.7694012+01:00:2022-01-11T12:27:14.7691292+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7699058+01:00:2022-01-11T12:27:14.7696041+01:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2022-01-11T12:27:14.7704353+01:00:2022-01-11T12:27:14.7701428+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7709872+01:00:2022-01-11T12:27:14.7706907+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.7715390+01:00:2022-01-11T12:27:14.7712492+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.7721047+01:00:2022-01-11T12:27:14.7718048+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7726456+01:00:2022-01-11T12:27:14.7723726+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.7731216+01:00:2022-01-11T12:27:14.7728794+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7735753+01:00:2022-01-11T12:27:14.7733522+01:00:Thread#0:T:        
+2022-01-11T12:27:14.7740555+01:00:2022-01-11T12:27:14.7738022+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.7744118+01:00:2022-01-11T12:27:14.7742349+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.7747309+01:00:2022-01-11T12:27:14.7745912+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7750012+01:00:2022-01-11T12:27:14.7748643+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.7752738+01:00:2022-01-11T12:27:14.7751390+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7756370+01:00:2022-01-11T12:27:14.7754509+01:00:Thread#0:T:    }
+2022-01-11T12:27:14.7760070+01:00:2022-01-11T12:27:14.7758129+01:00:Thread#0:T:}
+2022-01-11T12:27:14.7768326+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:27:14.7768486+01:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2022-01-11T12:27:14.7768521+01:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2022-01-11T12:27:14.7768704+01:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-11T12:27:14.7768732+01:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2022-01-11T12:27:14.7768745+01:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2022-01-11T12:27:14.7768761+01:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2022-01-11T12:27:14.7768846+01:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2022-01-11T12:27:14.7768909+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-11T12:27:14.7803019+01:00:Thread#0: Test #7/0 is finished on thread #0 as Pending within 0,0580307 seconds
+2022-01-11T12:27:14.7811705+01:00:Thread#0: Test #8/0 is started on thread #0
+2022-01-11T12:27:14.7833982+01:00:2022-01-11T12:27:14.7829426+01:00:Thread#0:B:Given the first number is 3
+2022-01-11T12:27:14.7881686+01:00:2022-01-11T12:27:14.7877632+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.7887436+01:00:2022-01-11T12:27:14.7884396+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.7893242+01:00:2022-01-11T12:27:14.7890174+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.7898985+01:00:2022-01-11T12:27:14.7895985+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.7904159+01:00:2022-01-11T12:27:14.7901261+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.7910107+01:00:2022-01-11T12:27:14.7907317+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.7917888+01:00:2022-01-11T12:27:14.7914653+01:00:Thread#0:B:And the second number is 0
+2022-01-11T12:27:14.8046173+01:00:2022-01-11T12:27:14.8041042+01:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2022-01-11T12:27:14.8052749+01:00:2022-01-11T12:27:14.8049438+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.8061147+01:00:2022-01-11T12:27:14.8056382+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.8070717+01:00:2022-01-11T12:27:14.8066323+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.8077317+01:00:2022-01-11T12:27:14.8073575+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.8085148+01:00:2022-01-11T12:27:14.8079888+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.8098877+01:00:2022-01-11T12:27:14.8091780+01:00:Thread#0:B:When the two numbers are divided
+2022-01-11T12:27:14.8108354+01:00:2022-01-11T12:27:14.8104864+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.8118043+01:00:2022-01-11T12:27:14.8114364+01:00:Thread#0:B:Then the result should be error
+2022-01-11T12:27:14.8135293+01:00:2022-01-11T12:27:14.8128406+01:00:Thread#0:T:skipped because of previous errors
+2022-01-11T12:27:14.8507390+01:00:2022-01-11T12:27:14.8500699+01:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2022-01-11T12:27:14.8521216+01:00:2022-01-11T12:27:14.8513610+01:00:Thread#0:T:using System;
+2022-01-11T12:27:14.8532620+01:00:2022-01-11T12:27:14.8527675+01:00:Thread#0:T:using TechTalk.SpecFlow;
+2022-01-11T12:27:14.8540297+01:00:2022-01-11T12:27:14.8535667+01:00:Thread#0:T:namespace MyNamespace
+2022-01-11T12:27:14.8549257+01:00:2022-01-11T12:27:14.8544731+01:00:Thread#0:T:{
+2022-01-11T12:27:14.8555939+01:00:2022-01-11T12:27:14.8552228+01:00:Thread#0:T:    [Binding]
+2022-01-11T12:27:14.8563251+01:00:2022-01-11T12:27:14.8558669+01:00:Thread#0:T:    public class StepDefinitions
+2022-01-11T12:27:14.8569671+01:00:2022-01-11T12:27:14.8566330+01:00:Thread#0:T:    {
+2022-01-11T12:27:14.8575458+01:00:2022-01-11T12:27:14.8572284+01:00:Thread#0:T:        private readonly ScenarioContext _scenarioContext;
+2022-01-11T12:27:14.8581280+01:00:2022-01-11T12:27:14.8578070+01:00:Thread#0:T:        public StepDefinitions(ScenarioContext scenarioContext)
+2022-01-11T12:27:14.8586406+01:00:2022-01-11T12:27:14.8583393+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.8592576+01:00:2022-01-11T12:27:14.8590003+01:00:Thread#0:T:            _scenarioContext = scenarioContext;
+2022-01-11T12:27:14.8597615+01:00:2022-01-11T12:27:14.8594920+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.8602496+01:00:2022-01-11T12:27:14.8599914+01:00:Thread#0:T:        [Given(@"the first number is (.*)")]
+2022-01-11T12:27:14.8607512+01:00:2022-01-11T12:27:14.8604253+01:00:Thread#0:T:        public void GivenTheFirstNumberIs(int p0)
+2022-01-11T12:27:14.8614705+01:00:2022-01-11T12:27:14.8610756+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.8620508+01:00:2022-01-11T12:27:14.8617548+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.8628059+01:00:2022-01-11T12:27:14.8623348+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.8635713+01:00:2022-01-11T12:27:14.8631816+01:00:Thread#0:T:        
+2022-01-11T12:27:14.8641721+01:00:2022-01-11T12:27:14.8638330+01:00:Thread#0:T:        [Given(@"the second number is (.*)")]
+2022-01-11T12:27:14.8648131+01:00:2022-01-11T12:27:14.8644820+01:00:Thread#0:T:        public void GivenTheSecondNumberIs(int p0)
+2022-01-11T12:27:14.8654046+01:00:2022-01-11T12:27:14.8650723+01:00:Thread#0:T:        {
+2022-01-11T12:27:14.8661793+01:00:2022-01-11T12:27:14.8657232+01:00:Thread#0:T:            _scenarioContext.Pending();
+2022-01-11T12:27:14.8671863+01:00:2022-01-11T12:27:14.8666028+01:00:Thread#0:T:        }
+2022-01-11T12:27:14.8689734+01:00:2022-01-11T12:27:14.8680336+01:00:Thread#0:T:    }
+2022-01-11T12:27:14.8699931+01:00:2022-01-11T12:27:14.8694356+01:00:Thread#0:T:}
+2022-01-11T12:27:14.8722439+01:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-11T12:27:14.8722958+01:00:Thread#:Scheduler: at the end of normal test queue
+2022-01-11T12:27:14.8723131+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2022-01-11T12:27:14.8723175+01:00:Thread#0:Scheduler: No more tests for thread
+2022-01-11T12:27:14.8787072+01:00:Thread#0: Test #8/0 is finished on thread #0 as Pending within 0,0974905 seconds
+2022-01-11T12:27:14.8898391+01:00:2022-01-11T12:27:14.8895288+01:00:Got Deinitialize Signal
+2022-01-11T12:27:14.8941888+01:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2022-01-11T12:27:14.8964400+01:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2022-01-11T12:27:14.8983026+01:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2022-01-11T12:27:14.9009428+01:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:27:14.9010264+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2022-01-11T12:27:14.9010524+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2022-01-11T12:27:14.9010678+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:27:14.9010702+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:27:14.9012876+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:27:14.9013586+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1'
+2022-01-11T12:27:14.9013792+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2022-01-11T12:27:14.9014663+01:00:Tfm: netcoreapp3.1
+2022-01-11T12:27:14.9014750+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:27:14.9014769+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:27:14.9015276+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:27:14.9015963+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2022-01-11T12:27:14.9089813+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22'
+2022-01-11T12:27:14.9090112+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:27:14.9090546+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:27:14.9090767+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.22'
+2022-01-11T12:27:14.9092710+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22'
+2022-01-11T12:27:14.9092811+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:27:14.9093139+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:27:14.9093335+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.22'
+2022-01-11T12:27:14.9094122+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22'
+2022-01-11T12:27:14.9094197+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22\System.Diagnostics.Process.resources.dll'
+2022-01-11T12:27:14.9094828+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22\System.Diagnostics.Process.resources.exe'
+2022-01-11T12:27:14.9095073+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.22'
+2022-01-11T12:27:14.9103112+01:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-11T12:27:14.9209013+01:00:Thread#-1:Scheduler: get next test for thread -1
+2022-01-11T12:27:14.9209401+01:00:Thread#:Scheduler: at the end of normal test queue
+2022-01-11T12:27:14.9209490+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2022-01-11T12:27:14.9235658+01:00;Thread#12;Info;test run finished
+2022-01-11T12:27:14.9238936+01:00;Thread#12;Info;publishing test results
+2022-01-11T12:27:14.9241378+01:00;Thread#12;Info;Not publishing results.
+2022-01-11T12:27:14.9242667+01:00;Thread#12;Info;test results published
+2022-01-11T12:27:14.9243389+01:00;Thread#12;Info;generating reports
+2022-01-11T12:27:15.0385210+01:00;Thread#12;Info;Starting external report generation process
+2022-01-11T12:27:17.1293205+01:00;Thread#12;Info;Successfully generated reports.
+2022-01-11T12:27:17.1329404+01:00;Thread#12;Info;Successfully generated reports
+2022-01-11T12:27:17.1404033+01:00:Total: 5
+2022-01-11T12:27:17.1417216+01:00:Succeeded: 0
+2022-01-11T12:27:17.1419363+01:00:Ignored: 0
+2022-01-11T12:27:17.1421175+01:00:Pending: 5
+2022-01-11T12:27:17.1421276+01:00:Skipped: 0
+2022-01-11T12:27:17.1426709+01:00:Failed: 0
+2022-01-11T12:27:17.1490283+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2022-01-11T12:27:17.1491500+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\fouca\source\repos\esgi_bdd\Calculator\TestResults\Unnamed project__2022-01-11T122712.html'
+========== End of log file ==========
