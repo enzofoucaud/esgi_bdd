@@ -45,7 +45,7 @@ namespace SpecFlowCalculator
                 }
                 else if (number == "0")
                 {
-                    return "error";
+                    return "Désolé.. Nous ne pouvons pas diviser par zéro.";
                 }
                 else
                 {

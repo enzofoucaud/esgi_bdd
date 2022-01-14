@@ -34,4 +34,4 @@ Scenario: Divide with 0 in dividend
 Scenario: Divide with 0 in divisor
 	Given the numbers are 50,2,0
 	When the numbers are divided
-	Then the result should be error
+	Then the result should be Désolé.. Nous ne pouvons pas diviser par zéro.
