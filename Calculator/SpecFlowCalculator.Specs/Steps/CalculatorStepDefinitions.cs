@@ -29,6 +29,12 @@ namespace SpecFlowCalculator.Specs.Steps
             _result = _calculator.Add();
         }
 
+        [When("the numbers are substracted")]
+        public void WhenTheTwoNumbersAreSubstracted()
+        {
+            _result = _calculator.Substracted();
+        }
+
         [When("the numbers are multiplied")]
         public void WhenTheTwoNumbersAreMultiplied()
         {

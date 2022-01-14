@@ -16,6 +16,15 @@ namespace SpecFlowCalculator
             }
             return sum;
         }
+        public string Substracted()
+        {
+            string sum = Numbers.First();
+            foreach (string number in Numbers.Skip(1).ToArray())
+            {
+                sum = Convert.ToString(Convert.ToDouble(sum) - Convert.ToDouble(number));
+            }
+            return sum;
+        }
         public string Multi()
         {
             string sum = "1";

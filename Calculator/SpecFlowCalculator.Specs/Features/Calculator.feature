@@ -11,6 +11,11 @@ Scenario: Add numbers
 	When the numbers are added
 	Then the result should be 200
 
+Scenario: Substracted numbers
+	Given the numbers are 200,50,50
+	When the numbers are substracted
+	Then the result should be 100
+
 Scenario: Multiple numbers
 	Given the numbers are 2,2,2,2,2
 	When the numbers are multiplied
